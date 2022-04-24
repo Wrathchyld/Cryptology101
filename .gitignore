@@ -83,3 +83,37 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+https://goerli.infura.io/v3/e1a5d4d2c06a4e81945fca56d0d5d8eaUsing network goerli https://goerli.infura.io/v3/e1a5d4d2c06a4e81945fca56d0d5d8ea
+    Saddle console on network goerli https://goerli.infura.io/v3/e1a5d4d2c06a4e81945fca56d0d5d8ea
+    Deployed goerli contracts
+      comptroller: 0x627EA49279FD0dE89186A58b8758aD02B6Be2867
+      comp: 0xfa5E1B628EFB17C024ca76f65B45Faf6B3128CA5
+      governorAlpha: 0x8C3969Dd514B559D78135e9C210F2F773Feadf21
+      maximillion: 0x73d3F01b8aC5063f4601C7C45DA5Fdf1b5240C92
+      priceOracle: 0x9A536Ed5C97686988F93C9f7C2A390bF3B59c0ec
+      priceOracleProxy: 0xd0c84453b3945cd7e84BF7fc53BfFd6718913B71
+      timelock: 0x25e46957363e16C4e2D5F2854b062475F9f8d287
+      unitroller: 0x627EA49279FD0dE89186A58b8758aD02B6Be2867
+    > await comp.methods.totalSupply().call()
+    '10000000000000000000000000'    /compound-protocol > yarn console -n goerli
+    Using network goerli https://goerli-eth.compound.finance
+    Saddle console on network goerli https://goerli-eth.compound.finance
+    Deployed goerli contracts
+      comptroller: 0x627EA49279FD0dE89186A58b8758aD02B6Be2867
+      comp: 0xfa5E1B628EFB17C024ca76f65B45Faf6B3128CA5
+      governorAlpha: 0x8C3969Dd514B559D78135e9C210F2F773Feadf21
+      maximillion: 0x73d3F01b8aC5063f4601C7C45DA5Fdf1b5240C92
+      priceOracle: 0x9A536Ed5C97686988F93C9f7C2A390bF3B59c0ec
+      priceOracleProxy: 0xd0c84453b3945cd7e84BF7fc53BfFd6718913B71
+      timelock: 0x25e46957363e16C4e2D5F2854b062475F9f8d287
+      unitroller: 0x627EA49279FD0dE89186A58b8758aD02B6Be2867
+
+    > await comp.methods.totalSupply().call()
+    '10000000000000000000000000'yarn repl -n development
+yarn repl -n rinkeby
+
+> Read CToken cBAT Address
+Command: Read CToken cBAT Address
+AddressV<val=0xAD53863b864AE703D31b819d29c14cDA93D7c6a6>git clone https://github.com/compound-finance/compound-protocol
+cd compound-protocol
+yarn install --lock-file # or `npm install`https://github.com/compound-finance/compound-protocol
